@@ -1,17 +1,17 @@
 $("#yorumEkle").submit(function (e) {
-  $(".alert.alert.-danger").hide();
+  $(".alert.alert-danger").hider();
   if (
     !$("input#name").val() ||
     !$("select#rating").val() ||
-    !$("text-area#review").val()
+    !$("textarea#review").val()
   ) {
     if ($(".alert.alert-danger").length) {
       $(".alert.alert-danger").show();
     } else {
       $(this).prepend(
-        '<div role="alert" class="alert alert-danger">Tüm Alanlar Gerekllidir!</div>'
+        '<div role="alert" class="alert alert-danger">Tüm Alanlar Gereklidir!</div>'
       );
+      return false;
     }
-    return false;
   }
 });
