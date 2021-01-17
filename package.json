@@ -16,7 +16,11 @@
     "http-errors": "~1.6.3",
     "mongoose": "^5.11.4",
     "morgan": "~1.9.1",
+    "postman-request": "^2.88.1-postman.28",
     "pug": "^3.0.0",
     "serve-favicon": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
