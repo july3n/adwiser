@@ -30,7 +30,7 @@ var anasayfayiOlustur = function (req, res, cevap, mekanListesi) {
   }
 
   res.render("mekanlar-liste", {
-    baslik: "Mekan32",
+    baslik: "Welcome...",
     sayfaBaslik: {
       siteAd: "ad(wise)r",
       aciklama: "discover the places around you ,comment and vote them!",

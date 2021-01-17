@@ -1,14 +1,14 @@
 mixin puanOlustur(puan)
- -for (var i=1;i<=puan;i++)
-  span.glyphicon.glyphicon-star
- -for (var j=puan;j<5;j++)
-  span.glyphicon.glyphicon-star-empty
+    -for (var i = 1; i <= puan; i++)
+        span.glyphicon.glyphicon-star
+    -for (var i = puan; i < 5; i++)
+        span.glyphicon.glyphicon-star-empty
 
-  mixin tarihiFormatla(formatsizGun)
+mixin tarihiFormatla(formatsizGun)
     -var gun = new Date(formatsizGun);
-    -var aylar= ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
-    -var gunBilgisi = gun.getDate();
-    -var ayBilgisi. = aylar[gun.getMonth()];
-    -var yilBilgisi = gun.getFullYear();
-    -var sonuc=gunBilgisi +  ' '+ ayBilgisi + ' '+ yilBilgisi;
+    -var aylar = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
+    -var gunBilgisi=gun.getDate();
+    -var ayBilgisi=aylar[gun.getMonth()];
+    -var yilBilgisi=gun.getFullYear();
+    -var sonuc = gunBilgisi + ' ' + ayBilgisi + ' ' +yilBilgisi;
     =sonuc
