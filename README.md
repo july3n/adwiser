@@ -2,7 +2,7 @@
 
 ### (web technologies PROJECT)
 <br/><br/><br/>
-### This is a web app what u can list the close to your location and you can read comments, you can give a comment and star!
+### You can list places where close to your location and you can read comments, you can give a comment and star! 
 <br/><br/>
 
 `main  page`
