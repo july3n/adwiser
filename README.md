@@ -1,7 +1,5 @@
 # MEAN stack web project (edu)        
-
-### ()
-<br/><br/><br/>
+><br/><br/>
 ### List places around you,read comments,give a comment and star! 
 <br/><br/>
 
