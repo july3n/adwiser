@@ -1,8 +1,8 @@
-# MEAN stack          
+# MEAN stack web project (edu)        
 
-### (web technologies PROJECT)
+### ()
 <br/><br/><br/>
-### You can list places where close to your location and you can read comments, you can give a comment and star! 
+### List places around you,read comments,give a comment and star! 
 <br/><br/>
 
 `main  page`
